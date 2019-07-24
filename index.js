@@ -53,4 +53,4 @@ bot.on('ready', () => {
   bot.user.setActivity('Surveiller Morioh-Cho !')
 })
 
-bot.login('NjAzNjM5MDIzNTAzODAyMzc4.XTi1AQ.8D7pAgKncLD2VfGjKH8VgzQ3gGs')
+bot.login(process.env.TOKEN)
